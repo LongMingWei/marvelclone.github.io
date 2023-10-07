@@ -460,6 +460,11 @@ span.fa-chevron-up:hover {
 	visibility: visible;
 }
 
+.bee-block.bee-block-1.bee-social .icon img{
+	width: auto;
+	height: auto;
+}
+
 @keyframes slide {
 	0% {
 		opacity: 0;
