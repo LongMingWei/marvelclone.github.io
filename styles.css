@@ -460,9 +460,24 @@ span.fa-chevron-up:hover {
 	visibility: visible;
 }
 
-.bee-block.bee-block-1.bee-social .icon img{
+.bee-block.bee-block-1.bee-social .icon img {
 	width: auto;
 	height: auto;
+}
+
+#team {
+	display: flex;
+	align-content: center;
+}
+
+.w3-quarter {
+	align-content: center;
+	float: left;
+	width: 25%;
+}
+
+.nav-item {
+	font-family: 'Bungee', cursive;
 }
 
 @keyframes slide {
