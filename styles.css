@@ -1,3 +1,4 @@
+
 .bee-row,
 .bee-row-content {
 	position: relative
@@ -467,13 +468,28 @@ span.fa-chevron-up:hover {
 
 #team {
 	display: flex;
-	align-content: center;
+	flex-direction: column;
+}
+
+#team img {
+	width: 10vw;
+}
+
+.w3-row-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.w3-row-2 {
+	display: flex;
+	justify-content: space-between;
 }
 
 .w3-quarter {
-	align-content: center;
-	float: left;
-	width: 25%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .nav-item {
@@ -521,3 +537,4 @@ span.fa-chevron-up:hover {
 		font-size: 150px;
 	}
 }
+
