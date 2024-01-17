@@ -1,4 +1,5 @@
-.carousel-inner {
+.carousel-item .container {
+	width: 50%;
 	text-align: center
 }
 
@@ -49,6 +50,17 @@
   40%, 100% {
     transform: rotateZ(0);
   }
+}
+
+#team {
+	display: flex;
+	justify-content: center;
+}
+
+.w3-quarter {
+	align-content: center;
+	float: left;
+	width: 25%;
 }
 
 .bee-row,
@@ -516,17 +528,6 @@ span.fa-chevron-up:hover {
 .bee-block.bee-block-1.bee-social .icon img {
 	width: auto;
 	height: auto;
-}
-
-#team {
-	display: flex;
-	align-content: center;
-}
-
-.w3-quarter {
-	align-content: center;
-	float: left;
-	width: 25%;
 }
 
 .nav-item {
