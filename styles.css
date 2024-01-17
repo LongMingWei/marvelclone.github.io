@@ -1,3 +1,56 @@
+.carousel-inner {
+	text-align: center
+}
+
+.carousel-control-prev img {
+	width: 5rem;
+	height: 5rem;
+}
+
+.carousel-control-next img {
+	width: 5rem;
+	height: 5rem;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.bee-block-1.bee-image {
+	padding: 3rem;
+}
+
+.bee-row-2 img {
+	width: 50% !important;
+	height: 50% !important;
+}
+
+.bee-row-2 img:hover {
+	animation: wiggle 2s linear;	
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
 .bee-row,
 .bee-row-content {
 	position: relative
