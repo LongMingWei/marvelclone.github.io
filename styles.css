@@ -60,10 +60,13 @@
 #team {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .w3-row {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .w3-quarter {
@@ -73,6 +76,10 @@
 	display: flex;
 	margin-left: 2rem;
 	margin-right: 2rem
+}
+
+.w3-quarter h3, p {
+	font-family: 'Bungee', cursive;
 }
 
 .bee-row,
