@@ -78,8 +78,12 @@
 	margin-right: 2rem
 }
 
-.w3-quarter h3, p {
+.w3-quarter h3, .w3-quarter p {
 	font-family: 'Bungee', cursive;
+}
+
+.w3-quarter img {
+	border-radius: 50%;
 }
 
 .bee-row,
