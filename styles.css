@@ -5,7 +5,15 @@
 
 .carousel-item .container {
 	width: 50%;
-	text-align: center
+	text-align: center;
+	overflow: hidden;
+}
+
+.carousel-item .container img{
+	padding: 1rem;
+	width: 90%;
+	object-fit: cover;
+	height: 25rem;
 }
 
 .carousel-control-prev img {
