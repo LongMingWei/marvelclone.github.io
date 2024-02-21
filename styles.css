@@ -1,10 +1,11 @@
-#about, #events, #projects, #committees, #contact {
+#title, #about, #events, #projects, #committees, #contact {
 	text-align: center;
 	font-size: 46px;
 }
 
-span, h4, h3, p {
+span, h4, h3, p, .btn-primary {
 	color: white;
+	font-family: 'VT323';
 }
 
 div:not([id="collapsibleNavbar"]) {
@@ -15,25 +16,18 @@ div:not([id="collapsibleNavbar"]) {
 	width: 50%;
 	text-align: center;
 	overflow: hidden;
+	font-size: 21px;
 }
 
 .carousel-item .container img{
 	padding: 1rem;
-	width: 90%;
 	object-fit: cover;
 	height: 25rem;
 }
 
-.carousel-control-prev img {
+.carousel-control-prev img, .carousel-control-next img {
 	width: 5rem;
 	height: 5rem;
-}
-
-.carousel-control-next img {
-	width: 5rem;
-	height: 5rem;
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
 }
 
 .bee-block-1.bee-image {
